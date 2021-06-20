@@ -1,16 +1,9 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
-
-PROJECT TITLE: Java_Rocks
-PURPOSE OF PROJECT: Timepass and getting 100% in Computers
-VERSION or DATE: From 13-04-2017 and still going
+PROJECT TITLE: Java Developement Projects
+PURPOSE OF PROJECT: Improve Skills and get 100% in Computers Subject 😉
+VERSION or DATE: From 13-04-2020 and still going
 HOW TO START THIS PROJECT: With Hands and Brains
 AUTHORS: Aryan K, Aryan Incorporated, A.F.O.G.A.
-ACCOUNTS: Instagram: @ary_rpi6, YouTube Channel: Aryan The Techy, Telegram: @ary_rpi6
-CONTACT ME: Call/Whatsapp: 76765800808, Email: aryan.keluskar@icloud.com, ary.rpi6@gmail.com
+ACCOUNTS: Instagram: @ary_rpi6, YouTube Channel: Aryan The Techynologion, Telegram: @ary_rpi6
 USER INSTRUCTIONS: If you require instructions then don't touch my files and get out.
 PRECAUTIONS: 
 1) You can't edit a damn thing in any program without Aryan's pemission.
