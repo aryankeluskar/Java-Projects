@@ -110,6 +110,7 @@ public class CUI_Arculator
                     aa = sc.nextDouble();
                     bb = sc.nextDouble();
                     x3 = sc.nextDouble();
+                    System.out.println(x3);
                     break;
                     case "Q":
                     System.out.println("Enter 3 values as coefficients of a quadratic equation");
@@ -126,6 +127,7 @@ public class CUI_Arculator
                 }    
             }
          choice = sc.nextLine();
+         sc.close();
        }while(choice=="Y");
     }
 }

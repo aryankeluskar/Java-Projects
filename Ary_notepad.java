@@ -2,8 +2,7 @@ import java.awt.*;
 import java.awt.datatransfer.*;
 import java.io.*;
 import java.awt.event.*;
-import javax.swing.*;
-import javax.swing.filechooser.*; 
+import javax.swing.*; 
 /**
  * Beta Version - 1.0
  */
@@ -36,7 +35,6 @@ public class Ary_notepad extends JFrame{
         save sa = new save();
         open o = new open();
         paste pa = new paste();
-        copy co = new copy();
         m2.addActionListener(sa);
         m4.addActionListener(pa);
         m1.addActionListener(o);

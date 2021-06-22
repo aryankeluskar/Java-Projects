@@ -30,5 +30,6 @@ class bubble_sort
         System.out.println("The entered nos in ascending order: ");
         for(int i=0;i<5;i++)
         System.out.println(arr[i]);
+        sc.close();
     }
 }

@@ -1,12 +1,12 @@
 import java.util.*;
 class rev_selection_sort
 {
-    static int[] sort(int ar[]){
-        sorted so = new sorted();    
+    static int[] sort(int ar[]){   
         for(int i=0;i<ar.length;i++)
         {
             int small=ar[i], sidx=i;
-            if(sorted.isSorted(ar))
+            sorted s = new sorted();
+            if(s.isSorted(ar))
                 return ar;
             for(int j=i+1;j<ar.length;j++)
             {
@@ -35,5 +35,6 @@ class rev_selection_sort
         sort(ar);
         for(int i=0;i<N;i++)       
             System.out.println(ar[i]);   
-     }
+        sc.close();
+    }
 }

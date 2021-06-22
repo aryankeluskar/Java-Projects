@@ -36,5 +36,6 @@ class wordlogic
         System.out.println("No of Words: "+c);
         System.out.println("No of Letters: "+cl);
         //output statements
+        sc.close();
     } //function close
 } //class close

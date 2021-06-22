@@ -1,7 +1,6 @@
-import java.util.*;
-class sorted
+public class sorted
 {
-    static boolean isSorted(int a[]){
+    boolean isSorted(int a[]){
         for(int i = 0;i<a.length;i++){
             for(int j=i;j<a.length;j++){
                 if(a[i]>a[j])
@@ -10,7 +9,7 @@ class sorted
         }
         return true;
     }
-    static boolean isSorted(String a[]){
+    boolean isSorted(String a[]){
         for(int i = 0;i<a.length;i++){
             for(int j=i;j<a.length;j++){
                 if(a[i].compareTo(a[j])<0)

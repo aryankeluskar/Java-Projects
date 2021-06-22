@@ -48,5 +48,6 @@ class happy //class name
             System.out.println("Happy Word");//print output
         else if(ds!=1)//Check whether final Sum of Squares of digits is not equal to 1
             System.out.println("Sad Word");//print output
+            sc.close();
     }//main close
 }//class close

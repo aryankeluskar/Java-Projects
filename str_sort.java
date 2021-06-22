@@ -6,7 +6,8 @@ class str_sort
         for(int i=0;i<s.length;i++)
         {
             for(int j=0;j<s.length-1;j++){
-                if(sorted.isSorted(s)){               
+                sorted so = new sorted();
+                if(so.isSorted(s)){               
                     break;
                 }
                 if(s[j].compareToIgnoreCase(s[j+1])>0)
@@ -47,5 +48,6 @@ class str_sort
         String s[] = new String[si];
         for(int i = 0;i<si;i++)
             s[i]=sc.nextLine();
+            sc.close();
     }
 }

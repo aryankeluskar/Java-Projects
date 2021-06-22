@@ -1,5 +1,3 @@
-import java.util.*;
-
 class MainCTF {
     public static void main(String[] args) {
         String password = "otqhygkx1CexxNuyf:mFV58v\\FviMajmNGohm[meDP;jf6o[k6vXj{UlhUNSrKCH31g1f1uotqh1oqe0gniqqi0ueqf11<urvvj";

@@ -5,7 +5,7 @@ import java.io.*;
 class IO
 {
     public static void main(){
-        /*
+
         try{    
              FileOutputStream fout=new FileOutputStream("D:\\testout.txt");    
              fout.write("I am FileOutputStream".getBytes());    
@@ -20,6 +20,6 @@ class IO
                 System.out.print((char)i);     
             fin.close();    
         }catch(Exception e){}          
-        */
+        
     }
 }

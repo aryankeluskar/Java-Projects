@@ -20,5 +20,6 @@ class tax
             else if(i>1000000)
                 System.out.println("Income Tax for you is "+(i-1000000)*0.3+94000);    
         }
+        sc.close();
     }
 }

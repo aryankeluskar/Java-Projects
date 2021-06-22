@@ -9,6 +9,7 @@ public class Number_Guessing_Game extends JFrame {
     private JLabel result; 
     private JButton button;
 
+
     Number_Guessing_Game() {
         setLayout(new FlowLayout());
                       
@@ -33,17 +34,19 @@ public class Number_Guessing_Game extends JFrame {
     }
     class event implements ActionListener{ 
       public void actionPerformed(ActionEvent e){
-              
-          Random r = new Random();          
-          int a = r.nextInt(9)+1;
-          int b = 0;         
-          a = a; 
-          b = Integer.parseInt(type.getText());    
-          if (b != a){result.setText("You are wrong, correct number was "+a);}                       
-          if (b == a){result.setText("You are correct"); number.setText("The number was " + a); }
+        Random r = new Random();          
+        int a = r.nextInt(9)+1;
+        run(a);       
       }
     }
-    public static void main()  {
+    public void run(int a){           
+        int b = 0; 
+        b = Integer.parseInt(type.getText());    
+        if (b > a){result.setText("Your number is higher, but you can try again");run(a);}
+        if (b < a){result.setText("Your number is lower, but you can try again");run(a);}                       
+        if (b == a){result.setText("You are correct"); number.setText("The number was " + a);}
+      }
+    public static void main(String args[]   )  {
         Number_Guessing_Game Aru = new Number_Guessing_Game();
         Aru.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Aru.setSize(300, 250);

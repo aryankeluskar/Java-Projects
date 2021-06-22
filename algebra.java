@@ -35,5 +35,6 @@ class algebra{
             System.out.println("Enter the coefficients of the quadratic equation");
             System.out.println("in form of ax2+bx+c = 0");
         }
+        sc.close();
     }
 }

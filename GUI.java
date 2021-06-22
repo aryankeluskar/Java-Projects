@@ -63,7 +63,7 @@ public class GUI extends JFrame{
        }
     }
    
-   public static void main(){
+   public static void main(String args[]){
         GUI win = new GUI();
         win.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         win.setSize(600, 600);

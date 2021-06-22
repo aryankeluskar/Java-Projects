@@ -27,5 +27,6 @@ class binary_search
         System.out.println("Enter a number to be searched"); 
         int s = sc.nextInt();
         System.out.println(binarysearch(a, s));
+        sc.close();
     }
 }
