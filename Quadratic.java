@@ -19,5 +19,6 @@ public class Quadratic
         double x1 = (-b + Math.sqrt(b*b - 4*a*c))/(2*a);
         double x2 = (-b - Math.sqrt(b*b - 4*a*c))/(2*a);
         System.out.println("The two values of x are: "+x1+" & "+x2);
+        sc.close();
     }
 }

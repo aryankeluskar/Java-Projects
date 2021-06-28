@@ -73,7 +73,7 @@ public class rps extends JFrame{
                 winner.setText("Computer beat you, Try Again");
         }
     }
-    public static void main(){
+    public static void main(String args[]){
         rps win = new rps();
         //System.out.print('\u000C');
         win.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

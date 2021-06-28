@@ -1,7 +1,7 @@
 import java.util.*;
 public class rev_order
 {
-    public static void main(){
+    public static void main(String args[]){
         System.out.print('\u000C');
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter something");
@@ -41,5 +41,6 @@ public class rev_order
         }
         System.out.println();
         System.out.println(row);
+        sc.close();
     }
 }

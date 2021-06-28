@@ -8,7 +8,7 @@ import java.util.*;
  */
 public class reverse_string
 {
-    public static void main(){
+    public static void main(String args[]   ){
         System.out.print('\u000C');
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter something");
@@ -72,5 +72,6 @@ public class reverse_string
         System.out.println("Longest Word: "+l);
         System.out.println("Shortest Length: "+sss);
         System.out.println("Shortest Word: "+ss);
+        sc.close();
     }
 }
