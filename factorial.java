@@ -1,51 +1,68 @@
 import java.util.*;
 import java.lang.*;
+import java.math.*;
 
-public class smallf {
+public class factorial {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
-        int[] arr = new int[N];
-        for(int i = 0;i<N;i++){
-            arr[i]=sc.nextInt();            
-        }
-        for(int i = 0;i<N;i++){
-            System.out.println(factorial(arr[i]));
-        }
+        System.out.println( calculate(sc.nextInt()));
     }
 
-    static String factorial(int n)
+
+    //Selects the most optimised method
+    public static String calculate(int n){
+        if(n<13&&n>-13)
+            return fact_int(n);
+        else
+            return fact_big(n);
+    }   
+
+    public static String calculate(long n){
+        if(n<13&&n>-13)
+            return fact_int((int)n);
+        else if(n<21&&n>-21)
+            return fact_long((int)n);
+        else
+            return fact_big(n);
+    }   
+
+
+    //Uses Big Integer
+    public static String fact_big(int n)
     {
-        int res[] = new int[500];
- 
-        
-        res[0] = 1;
-        int res_size = 1;
- 
-        for (int x = 2; x <= n; x++)
-            res_size = multiply(x, res, res_size);
- 
-        String result = "";        
-        for (int i = res_size - 1; i >= 0; i--)
-            result+=res[i];
-        return result;
+        BigInteger f = new BigInteger("1");
+        for(int i = 1; i<=n; i++){
+            f = f.multiply(BigInteger.valueOf(i));
+        }
+        return f.toString();
+    }
+    public static String fact_big(long n)
+    {
+        BigInteger f = new BigInteger("1");
+        for(int i = 1; i<=n; i++){
+            f = f.multiply(BigInteger.valueOf(i));
+        }
+        return f.toString();
     }
 
-    static int multiply(int x, int res[], int res_size)
+
+    //Uses only int
+    public static String fact_int(int n)
     {
-        int carry = 0; 
-        for (int i = 0; i < res_size; i++)
-        {
-            int prod = res[i] * x + carry;
-            res[i] = prod % 10; 
-            carry = prod/10; 
+        int f=1;
+        for(int i = 1; i<=n; i++){
+            f*=i;
         }
-        while (carry!=0)
-        {
-            res[res_size] = carry % 10;
-            carry = carry / 10;
-            res_size++;
+        return Integer.toString(f);
+    }
+
+
+    //Uses only long
+    public static String fact_long(int n){
+        long f=1;
+        for(long i = 1; i<=n; i++){
+            f*=i;
         }
-        return res_size;
+        return Long.toString(f);
     }
 }
