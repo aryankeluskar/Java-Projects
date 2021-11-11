@@ -6,6 +6,7 @@ class Primegen
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
+        
         InputStreamReader r=new InputStreamReader(System.in);  
         BufferedReader br = new BufferedReader(r);	
         int N = Integer.parseInt(br.readLine());
