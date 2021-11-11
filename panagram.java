@@ -22,7 +22,7 @@ public class panagram{
             if(cc==1)
                 p++;
         }
-
-        System.out.println(p==26?"It is panagram":"not panagram");
+        sc.close();
+        System.out.println(p==26?"It is panagram":"not panagram"+p);
     }
 }
