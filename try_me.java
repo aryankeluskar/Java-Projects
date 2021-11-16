@@ -9,7 +9,7 @@ import java.util.*;
 public class try_me 
 {
     public static void main(String[] args){
-        System.out.print("\u000C");
+        System.out.print("\u000C"); // clear terminal
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a single digit number: ");
         try{
