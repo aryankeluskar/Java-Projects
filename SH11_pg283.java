@@ -38,7 +38,7 @@ public class SH11_pg283
         char []arr = s1.toCharArray();
         Arrays.sort(arr);
         System.out.println("Arranged in alphabetical order: "+String.valueOf(arr));
-        
+        sc.close();
         
     } 
 } 
