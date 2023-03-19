@@ -5,7 +5,7 @@ class tax
         System.out.print('\u000C');
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your Age");
-        long a = sc.nextLong();/** In case this program is used by Thanos or Ancient One or Ghosts or Aliens, hence long is taken*/
+        long a = sc.nextLong();/** In case this program is used by inhumans, hence long is taken*/
         if(a>60)
             System.out.println("You should not pay Income Tax");
         else{    

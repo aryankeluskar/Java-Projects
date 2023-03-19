@@ -23,7 +23,6 @@ public class reverse_string
         {
             r+=s.charAt(i);
         }
-        //hahahahahahahahahahahahahahahaha
         sss=(s.substring(0,s.indexOf(" "))).length();
         int a = 0;
         String r2="";
@@ -68,10 +67,10 @@ public class reverse_string
         System.out.println("1st type: "+r);
         System.out.println("2nd type: "+r2);
         System.out.println("3rd type: "+row);
-        System.out.println("Longest Length: "+ll);
-        System.out.println("Longest Word: "+l);
-        System.out.println("Shortest Length: "+sss);
-        System.out.println("Shortest Word: "+ss);
+        // System.out.println("Longest Length: "+ll);
+        // System.out.println("Longest Word: "+l);
+        // System.out.println("Shortest Length: "+sss);
+        // System.out.println("Shortest Word: "+ss);
         sc.close();
     }
 }

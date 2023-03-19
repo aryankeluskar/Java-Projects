@@ -23,6 +23,6 @@ public class panagram{
                 p++;
         }
         sc.close();
-        System.out.println(p==26?"It is panagram":"not panagram"+p);
+        System.out.println(p==26?"It is panagram":"not a panagram");
     }
 }

@@ -14,7 +14,7 @@ class sleep extends Thread{
          Thread.sleep(t);
         } catch(Exception e){        }
         Date d1 = new Date();
-        System.out.println("After "+t/1000+" seconds is "+ full.format(d1));
+        System.out.println("After "+t/1000+" seconds it is "+ full.format(d1));
         sc.close();
     }
 }

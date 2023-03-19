@@ -74,6 +74,9 @@ public class roman {
             r="CM";
             r+=convert(s%100);
         }
+        else if(s==999){
+            r="CMXCIX";
+        }
         else if(s==1000){
             r="M";
         }

@@ -11,7 +11,7 @@ class NametoBinary
         System.out.print("The Unicode is ");
         for(int i = 0;i<x;i++)
         {
-            System.out.print((int)(name.charAt(i)));
+            System.out.print((int)(name.charAt(i))+" ");
         } 
         System.out.println();
         System.out.print("The Binary is ");
@@ -28,7 +28,8 @@ class NametoBinary
                 else{
                     bin += '0';     
                 }
-                val /= 2;                 
+                val /= 2;       
+                       
             }
         }
         bin += '0';
