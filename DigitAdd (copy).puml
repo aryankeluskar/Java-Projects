@@ -1,0 +1,23 @@
+@startuml
+/**
+ * 3. Write a Java program that reads an integer between 0 and 1000 and adds all the digits in the integer. 
+Test Data
+Input an integer between 0 and 1000: 565
+Expected Output :
+The sum of all digits in 565 is 16
+
+ */
+public class DigitAdd
+{
+    public static void main(int a){
+        so.cls();
+        String s = Integer.toString(a);
+        String[] d = s.split("");
+        int sum=0;
+        for(int i = 0;i<d.length;i++)
+            sum+=Integer.parseInt(d[i]);
+        so.pln("Sum of Digits: "+sum);
+    }
+}
+
+@enduml
